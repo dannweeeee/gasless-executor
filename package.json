@@ -1,0 +1,11 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^2.0.0",
+    "hardhat": "^2.22.13"
+  },
+  "dependencies": {
+    "@gelatonetwork/relay-context": "^4.0.0",
+    "@gelatonetwork/relay-sdk": "^5.5.6"
+  }
+}
