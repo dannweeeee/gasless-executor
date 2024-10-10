@@ -13,6 +13,18 @@ In this case, the result is the GojoNft.
 
 P.S. The Gelato Relay Concurrent ERC2771 is used in this implementation.
 
+## Deployment
+
+The contracts are deployed on the Base Sepolia testnet.
+
+1. Setup hardhat.config,js with the network configuration and the private key.
+2. Write the deployment script in `ignition/modules/GojoNft.deploy.ts`.
+3. Run the following command to deploy script.
+
+```
+npx hardhat ignition deploy ignition/modules/GojoNft.deploy.ts --network base-sepolia
+```
+
 ## Contracts
 
 [GojoNft.sol - ERC721 contract](https://sepolia.basescan.org/address/0xA75392507414677a884ee7a59c4893f5526447c4)
