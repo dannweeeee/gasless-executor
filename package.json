@@ -1,11 +1,26 @@
 {
-  "name": "hardhat-project",
+  "name": "executor-gelato",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "test": "ts-node scripts/concurrentSponsoredCallERC2771.ts"
+  },
+  "keywords": [
+    "executor",
+    "gelato"
+  ],
+  "author": "Dann Wee",
+  "license": "ISC",
+  "description": "executor that uses gelato relay sdk",
   "devDependencies": {
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.15.6",
     "@nomicfoundation/hardhat-toolbox-viem": "^2.0.0",
     "hardhat": "^2.22.13"
   },
   "dependencies": {
     "@gelatonetwork/relay-context": "^4.0.0",
-    "@gelatonetwork/relay-sdk": "^5.5.6"
+    "@gelatonetwork/relay-sdk": "^5.5.6",
+    "@gelatonetwork/relay-sdk-viem": "^1.2.0",
+    "dotenv": "^16.4.5"
   }
 }
