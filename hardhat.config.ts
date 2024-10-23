@@ -10,6 +10,10 @@ const config: HardhatUserConfig = {
       url: `https://base-sepolia.g.alchemy.com/v2/${process.env.ALCHEMY_KEY}`,
       accounts: [`0x${process.env.PRIVATE_KEY}`],
     },
+    "optimism-sepolia": {
+      url: `https://opt-sepolia.g.alchemy.com/v2/${process.env.ALCHEMY_KEY}`,
+      accounts: [`0x${process.env.PRIVATE_KEY}`],
+    },
   },
 };
 
